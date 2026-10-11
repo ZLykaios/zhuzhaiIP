@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - xiaohe
+- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
   type: vless
-  server: www.carousell.sg
+  server: 104.18.155.229
   port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 001-4e8.pages.dev
+  servername: www.genflix.co.id.r3xxe.eu.cc
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwkDAwBSV1gADB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoUA0g=
+    path: /au-do
     headers:
-      Host: 001-4e8.pages.dev
+      Host: www.genflix.co.id.r3xxe.eu.cc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
