@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
   type: vless
-  server: www.shopify.com
+  server: securecircle.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -15,12 +15,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwQBCABSV1kGBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAUDUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIFCAFUUFIHBB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUVBkg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
   type: vless
-  server: cf.nyanya.moe
+  server: www.carousell.sg
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -29,7 +29,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgGAgJTV1cHAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEcBUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcHBQJXVlcCBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcVDEg=
     headers:
       Host: 001-4e8.pages.dev
 proxy-groups:

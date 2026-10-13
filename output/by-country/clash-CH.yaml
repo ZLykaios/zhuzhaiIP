@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
   type: vless
-  server: 45.8.173.136
+  server: 23.27.201.168
   port: 443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
@@ -19,20 +19,6 @@ proxies:
     headers:
       Host: sdwf-amq.pages.dev
 - name: 🇨🇭 CH 02 - xiaohe
-  type: vless
-  server: 166.88.14.45
-  port: 8443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 03 - xiaohe
   type: vless
   server: 138.124.96.88
   port: 41826
@@ -48,7 +34,6 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - xiaohe
   - 🇨🇭 CH 02 - xiaohe
-  - 🇨🇭 CH 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,6 +41,5 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - xiaohe
   - 🇨🇭 CH 02 - xiaohe
-  - 🇨🇭 CH 03 - xiaohe
 rules:
 - MATCH,PROXIES
