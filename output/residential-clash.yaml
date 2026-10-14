@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+  type: vmess
+  server: fujrdt.d6f54hd1j.cc
+  port: 443
+  uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fujrdt.d6f54hd1j.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fujrdt.d6f54hd1j.cc
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vless
   server: 60.248.219.54
   port: 443
@@ -18,9 +34,9 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 60.248.219.54
-- name: 🇲🇽 MX 02 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   type: vless
-  server: uspto.gov
+  server: cf.877774.xyz
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -29,28 +45,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFlYHFUNCQlJNChFXW1dDHV1RTUEBExRdSlkWCggIH0Q=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYBCAFSVFYDAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUaDUg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  type: vmess
-  server: fujrdt.d6f54hd1j.cc
-  port: 443
-  uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   type: vless
-  server: op.chinwa.eu.cc
+  server: www.carousell.sg
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -59,12 +59,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgHBgNbXVADAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYUDEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcHBQJXVlcCBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcVDEg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   type: vless
-  server: cdn.ctn32.us.kg
+  server: securecircle.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -73,7 +73,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgCAwVRVVcDDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFQZDUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIFCAFUUFIHBB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUVBkg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
@@ -90,7 +90,49 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.148.73.173
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  type: vless
+  server: cf.nyanya.moe
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEHAwpWUVUGBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  type: vless
+  server: securecircle.com
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgAAwBWUlMGBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFQYBkg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
+  type: vless
+  server: op.chinwa.eu.cc
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgHBgNbXVADAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYUDEg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - xiaohe
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -104,29 +146,67 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.180.20.108
+- name: 🇲🇽 MX 11 (家宽) - xiaohe
+  type: vless
+  server: uspto.gov
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFlYHFUNCQlJNChFXW1dDHV1RTUEBExRdSlkWCggIH0Q=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🇹🇭 TH 12 (家宽) - xiaohe
+  type: vless
+  server: saas.sin.fan
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgBAwVQUFYGBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYZDEg=
+    headers:
+      Host: 001-4e8.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇲🇽 MX 02 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - xiaohe
+  - 🇲🇽 MX 11 (家宽) - xiaohe
+  - 🇹🇭 TH 12 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇲🇽 MX 02 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 04 (家宽) - xiaohe
   - 🇯🇵 日本 (Japan) 05 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 10 (家宽) - xiaohe
+  - 🇲🇽 MX 11 (家宽) - xiaohe
+  - 🇹🇭 TH 12 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
