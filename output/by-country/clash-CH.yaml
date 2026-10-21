@@ -11,90 +11,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-- name: 🇨🇭 CH 02 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 03 - xiaohe
-  type: vless
-  server: 152.70.86.199
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 04 - xiaohe
-  type: vless
-  server: 3.114.102.166
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 05 - xiaohe
-  type: vless
-  server: 45.192.242.135
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 06 - xiaohe
-  type: vless
-  server: 85.113.70.10
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇭 CH 01 - xiaohe
-  - 🇨🇭 CH 02 - xiaohe
-  - 🇨🇭 CH 03 - xiaohe
-  - 🇨🇭 CH 04 - xiaohe
-  - 🇨🇭 CH 05 - xiaohe
-  - 🇨🇭 CH 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇭 CH 01 - xiaohe
-  - 🇨🇭 CH 02 - xiaohe
-  - 🇨🇭 CH 03 - xiaohe
-  - 🇨🇭 CH 04 - xiaohe
-  - 🇨🇭 CH 05 - xiaohe
-  - 🇨🇭 CH 06 - xiaohe
 rules:
 - MATCH,PROXIES
