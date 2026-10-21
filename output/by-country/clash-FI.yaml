@@ -34,20 +34,6 @@ proxies:
       Host: fi1.merky.one
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 144.31.34.146
-  port: 2096
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fi1.merky.one
-  network: ws
-  ws-opts:
-    path: /mky-ws-4f19c8a7
-    headers:
-      Host: fi1.merky.one
-- name: 🇫🇮 FI 04 - xiaohe
-  type: vless
   server: openai.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
@@ -60,6 +46,20 @@ proxies:
     path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYIBARQUlUKAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFIdSQ==
     headers:
       Host: 001-4e8.pages.dev
+- name: 🇫🇮 FI 04 - xiaohe
+  type: vless
+  server: 144.31.34.146
+  port: 2096
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fi1.merky.one
+  network: ws
+  ws-opts:
+    path: /mky-ws-4f19c8a7
+    headers:
+      Host: fi1.merky.one
 proxy-groups:
 - name: PROXIES
   type: select
