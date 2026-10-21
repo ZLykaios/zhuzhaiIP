@@ -20,18 +20,18 @@ proxies:
       Host: 001-4e8.pages.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: www.leics.police.uk
+  server: 185.141.227.223
   port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 001-4e8.pages.dev
+  servername: z1q3pv4g78.rucdncomp.pro
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYDBQtRV1QHBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcbB0g=
+    path: /useraction/events/b892639b7195/
     headers:
-      Host: 001-4e8.pages.dev
+      Host: z1q3pv4g78.rucdncomp.pro
 proxy-groups:
 - name: PROXIES
   type: select
