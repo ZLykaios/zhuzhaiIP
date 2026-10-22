@@ -5,142 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  type: vless
-  server: www.vmware.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  type: vmess
+  server: 183.109.131.75
+  port: 20086
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYHAQJbU1QAAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocAUg=
+    path: /
     headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  type: vless
-  server: www.shopify.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEBBgRVXVkCAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  type: vless
-  server: cf.nyanya.moe
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcICARQVFEKDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUDAwpQVlAHBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcaBEg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  type: vless
-  server: p.etime.vip
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIAAQZaXFgFDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
-  type: vless
-  server: p.etime.vip
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIHAQNSU1QDAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEUAUg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
-  type: vless
-  server: op.chinwa.eu.cc
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUBAQVXUFUGAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
-  type: vless
-  server: www.sloomb.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMHCQVaUVcBAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYZAUg=
-    headers:
-      Host: 001-4e8.pages.dev
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
