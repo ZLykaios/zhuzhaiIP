@@ -15,7 +15,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
@@ -33,44 +33,46 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   type: vless
-  server: 185.253.116.33
-  port: 14430
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  type: vless
-  server: 31.57.190.15
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 116.204.164.17
+  port: 7443
+  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /@Marisa_kristi
     headers:
-      Host: ccc.010304.xyz
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
+  type: vless
+  server: 141.147.185.63
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  type: vless
+  server: 128.241.25.72
+  port: 30021
+  uuid: 65f26a08-9a5e-4b28-9004-f98676cc1e49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
   type: vless
   server: uae.unixzone.us
@@ -86,45 +88,19 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
   type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
-  type: vless
-  server: 13.230.247.88
+  server: 31.57.190.89
   port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /fp=chrome
     headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 10 - xiaohe
+      Host: ccc.010304.xyz
+- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
   type: vless
   server: 31.57.190.89
   port: 443
@@ -138,62 +114,35 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
+  type: vless
+  server: 92.113.124.143
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 10 - xiaohe
+  type: vless
+  server: 149.28.19.44
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
 - name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 12 - xiaohe
-  type: vless
-  server: 108.171.45.101
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 13 - xiaohe
-  type: vless
-  server: 31.57.190.89
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇦🇪 阿联酋 (UAE) 14 - xiaohe
-  type: vless
-  server: 52.199.170.52
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 15 - xiaohe
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -206,21 +155,7 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 16 - xiaohe
-  type: vless
-  server: 138.3.214.112
-  port: 8443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdwf-amq.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 17 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 12 - xiaohe
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -250,11 +185,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 10 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 11 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 12 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 13 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 14 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 15 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 16 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 17 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -272,10 +202,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 10 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 11 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 12 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 13 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 14 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 15 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 16 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 17 - xiaohe
 rules:
 - MATCH,PROXIES
