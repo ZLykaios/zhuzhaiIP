@@ -15,7 +15,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcICARaUVkEAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocDUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwkBAwZSVlQBDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAYAEg=
     headers:
       Host: 001-4e8.pages.dev
 proxy-groups:
