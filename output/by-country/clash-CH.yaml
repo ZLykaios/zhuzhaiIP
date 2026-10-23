@@ -5,15 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
+  type: vless
+  server: 185.18.250.245
+  port: 443
+  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edu.ruangguru.com.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /nl-tw
+    headers:
+      Host: edu.ruangguru.com.r3xxe.eu.cc
+- name: 🇨🇭 CH 02 - xiaohe
   type: ss
   server: 132.243.175.144
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-- name: 🇨🇭 CH 02 - xiaohe
+- name: 🇨🇭 CH 03 - xiaohe
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  udp: true
+- name: 🇨🇭 CH 04 - xiaohe
   type: vless
-  server: 154.83.93.236
+  server: 66.245.217.68
   port: 8443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
@@ -25,9 +46,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 03 - xiaohe
+- name: 🇨🇭 CH 05 - xiaohe
   type: vless
-  server: 149.28.26.137
+  server: 54.65.168.160
   port: 443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
@@ -39,17 +60,24 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 04 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 05 - xiaohe
+- name: 🇨🇭 CH 06 - xiaohe
   type: vless
-  server: 35.74.153.167
-  port: 443
+  server: 203.137.165.164
+  port: 57554
+  uuid: e5b2a063-a114-4bd0-802d-b2da1fe1d1da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇨🇭 CH 07 - xiaohe
+  type: vless
+  server: 172.104.89.243
+  port: 8443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
   tls: true
@@ -70,6 +98,8 @@ proxy-groups:
   - 🇨🇭 CH 03 - xiaohe
   - 🇨🇭 CH 04 - xiaohe
   - 🇨🇭 CH 05 - xiaohe
+  - 🇨🇭 CH 06 - xiaohe
+  - 🇨🇭 CH 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -80,5 +110,7 @@ proxy-groups:
   - 🇨🇭 CH 03 - xiaohe
   - 🇨🇭 CH 04 - xiaohe
   - 🇨🇭 CH 05 - xiaohe
+  - 🇨🇭 CH 06 - xiaohe
+  - 🇨🇭 CH 07 - xiaohe
 rules:
 - MATCH,PROXIES

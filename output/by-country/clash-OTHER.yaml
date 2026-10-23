@@ -6,91 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  type: vless
-  server: www.sloomb.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwQBAgRaVVEABR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFseB0g=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 03 - xiaohe
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 04 - xiaohe
-  type: vless
-  server: p.etime.vip
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIAAQZaXFgFDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 05 - xiaohe
-  type: vless
-  server: www.vmware.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYHAQJbU1QAAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocAUg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 06 - xiaohe
-  type: vless
-  server: op.chinwa.eu.cc
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIJAAdQVFMBAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocB0g=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 07 - xiaohe
-  type: vless
-  server: 172.64.158.170
+  server: 104.18.47.73
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -102,9 +18,23 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 08 - xiaohe
+- name: 🌐 其他地区 (Other) 02 - xiaohe
   type: vless
-  server: p.etime.vip
+  server: 172.64.158.78
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+- name: 🌐 其他地区 (Other) 03 - xiaohe
+  type: vless
+  server: www.shopify.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -113,14 +43,14 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUABwVXV1MCBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYZDEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUCBwBRXFEKBB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFobAUg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 09 - xiaohe
+- name: 🌐 其他地区 (Other) 04 - xiaohe
   type: vless
-  server: 104.21.5.128
+  server: 172.67.204.153
   port: 2053
-  uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
   udp: true
   tls: true
   skip-cert-verify: true
@@ -130,7 +60,91 @@ proxies:
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
     headers:
       Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 05 - xiaohe
+  type: vless
+  server: 172.64.153.153
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 06 - xiaohe
+  type: vless
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 07 - xiaohe
+  type: vless
+  server: www.sloomb.com
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDBABTU1kBAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoeAUg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 08 - xiaohe
+  type: vless
+  server: 172.64.152.87
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+- name: 🌐 其他地区 (Other) 09 - xiaohe
+  type: vless
+  server: 172.67.160.192
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/1.226.227.169:50001
+    headers:
+      Host: nuclear.us.kg
 - name: 🌐 其他地区 (Other) 10 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2053
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 11 - xiaohe
   type: vless
   server: cf.nyanya.moe
   port: 443
@@ -141,26 +155,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDBANWVVQCBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoeDEg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 11 - xiaohe
-  type: vless
-  server: cdn.ctn32.us.kg
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMDCApbUlYCAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcVB0g=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMGBgdUU1AEBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYfAkg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🌐 其他地区 (Other) 12 - xiaohe
   type: vless
-  server: cf.nyanya.moe
+  server: linear.app
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -169,7 +169,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcICARQVFEKDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUDBwNVV1UGAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoUDUg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🌐 其他地区 (Other) 13 - xiaohe
@@ -188,7 +188,7 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 14 - xiaohe
   type: vless
-  server: securecircle.com
+  server: cf.nyanya.moe
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -197,40 +197,40 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwQDBQNTXFEFAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYbDEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcICARQVFEKDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
     headers:
       Host: 001-4e8.pages.dev
 - name: 🌐 其他地区 (Other) 15 - xiaohe
   type: vless
-  server: 104.21.91.244
+  server: 172.64.149.65
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
+    path: /
     headers:
-      Host: lucasjow.us.ci
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
 - name: 🌐 其他地区 (Other) 16 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 172.64.147.154
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
+    path: /
     headers:
-      Host: lucasjow.us.ci
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
 - name: 🌐 其他地区 (Other) 17 - xiaohe
   type: vless
-  server: op.chinwa.eu.cc
+  server: linear.app
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -239,38 +239,10 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUBAQVXUFUGAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwkIAQFXXFEBDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAaAEg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🌐 其他地区 (Other) 18 - xiaohe
-  type: vless
-  server: p.etime.vip
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcEBgtXXVIFDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAbBkg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 19 - xiaohe
-  type: vless
-  server: www.5199dy.com
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 20 - xiaohe
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -284,49 +256,35 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 19 - xiaohe
+  type: vless
+  server: 104.21.73.135
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 20 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2096
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
 - name: 🌐 其他地区 (Other) 21 - xiaohe
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 22 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 23 - xiaohe
-  type: vless
-  server: 172.67.172.155
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 24 - xiaohe
   type: vless
   server: cf.877774.xyz
   port: 443
@@ -340,9 +298,9 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 25 - xiaohe
+- name: 🌐 其他地区 (Other) 22 - xiaohe
   type: vless
-  server: openai.com
+  server: www.shopify.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -351,52 +309,24 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMAAgNaVFAHDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAdDEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgBCAtQVFgHAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcZBkg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 26 - xiaohe
+- name: 🌐 其他地区 (Other) 23 - xiaohe
   type: vless
-  server: 104.16.10.135
+  server: 104.21.14.232
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: nuclear.us.kg
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /free/1.226.227.169:50001
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 27 - xiaohe
-  type: vless
-  server: spring.io
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEJBwdXUVQABB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUaAEg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 28 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 29 - xiaohe
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 24 - xiaohe
   type: vless
   server: www.carousell.sg
   port: 443
@@ -407,26 +337,26 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcBAQJbXFQDDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFsZB0g=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMABwRQVVECAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEeAUg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 30 - xiaohe
+- name: 🌐 其他地区 (Other) 25 - xiaohe
   type: vless
-  server: 104.21.34.106
+  server: 172.64.144.147
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /?ed
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 31 - xiaohe
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+- name: 🌐 其他地区 (Other) 26 - xiaohe
   type: vless
-  server: p.etime.vip
+  server: cdn.ctn32.us.kg
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -435,38 +365,38 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIHAQNSU1QDAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEUAUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMDCApbUlYCAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcVB0g=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 32 - xiaohe
+- name: 🌐 其他地区 (Other) 27 - xiaohe
   type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 104.21.5.128
+  port: 2053
+  uuid: 26769ac3-b34c-430a-87f8-e1de14619d25
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: uwu.blueknightnet.qzz.io
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 33 - xiaohe
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 28 - xiaohe
   type: vless
-  server: op.chinwa.eu.cc
+  server: 172.64.155.30
   port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 001-4e8.pages.dev
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUJBQBUUlABBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFsfBkg=
+    path: /?ed
     headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 34 - xiaohe
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
+- name: 🌐 其他地区 (Other) 29 - xiaohe
   type: vless
   server: cf.130519.xyz
   port: 443
@@ -480,173 +410,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132fp=qq
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 35 - xiaohe
-  type: vless
-  server: www.shopify.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUCBwBRXFEKBB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFobAUg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 36 - xiaohe
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 37 - xiaohe
-  type: vless
-  server: spring.io
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMIAQNbXVMLAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 38 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 39 - xiaohe
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUGAgVXVFcAAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUYB0g=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 40 - xiaohe
-  type: vless
-  server: www.carousell.sg
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgBCAdVUVULAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFsdAkg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 41 - xiaohe
-  type: vless
-  server: www.leics.police.uk
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYDBQtRV1QHBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcbB0g=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 42 - xiaohe
-  type: vless
-  server: www.sloomb.com
-  port: 443
-  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 001-4e8.pages.dev
-  network: ws
-  ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDBABTU1kBAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoeAUg=
-    headers:
-      Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 43 - xiaohe
-  type: vless
-  server: 172.67.181.232
-  port: 2053
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 44 - xiaohe
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 45 - xiaohe
-  type: vless
-  server: 104.18.0.181
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 46 - xiaohe
-  type: vless
-  server: 104.21.71.249
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 47 - xiaohe
+- name: 🌐 其他地区 (Other) 30 - xiaohe
   type: vless
   server: www.sloomb.com
   port: 443
@@ -660,9 +424,22 @@ proxies:
     path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMHCQVaUVcBAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYZAUg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 48 - xiaohe
+- name: 🌐 其他地区 (Other) 31 - xiaohe
   type: vless
-  server: www.shopify.com
+  server: 172.64.150.43
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 32 - xiaohe
+  type: vless
+  server: openai.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -671,10 +448,10 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEBBgRVXVkCAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMBCAdQVVMEAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAUAEg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 49 - xiaohe
+- name: 🌐 其他地区 (Other) 33 - xiaohe
   type: vless
   server: 104.18.40.100
   port: 443
@@ -688,50 +465,9 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 50 - xiaohe
+- name: 🌐 其他地区 (Other) 34 - xiaohe
   type: vless
-  server: 104.18.35.86
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 51 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 52 - xiaohe
-  type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 53 - xiaohe
-  type: vless
-  server: spring.io
+  server: www.vmware.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -740,23 +476,66 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIFBApTUFIEDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAbBkg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYHAQJbU1QAAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocAUg=
     headers:
       Host: 001-4e8.pages.dev
-- name: 🌐 其他地区 (Other) 54 - xiaohe
+- name: 🌐 其他地区 (Other) 35 - xiaohe
   type: vless
-  server: 172.64.150.43
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: p.etime.vip
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /sg-melbi
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUABwVXV1MCBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYZDEg=
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 55 - xiaohe
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 36 - xiaohe
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwUGAgVXVFcAAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUYB0g=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 37 - xiaohe
+  type: vless
+  server: www.dbs.com.sg
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEGBwRaV1IEAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUZDEg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 38 - xiaohe
+  type: vless
+  server: 104.27.124.133
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 39 - xiaohe
   type: vless
   server: 172.64.150.28
   port: 2082
@@ -769,23 +548,107 @@ proxies:
     path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 56 - xiaohe
+- name: 🌐 其他地区 (Other) 40 - xiaohe
   type: vless
-  server: 172.67.217.240
+  server: spring.io
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMIAQNbXVMLAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 57 - xiaohe
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 41 - xiaohe
   type: vless
-  server: 172.64.153.153
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 42 - xiaohe
+  type: vless
+  server: cf.nyanya.moe
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIDBANWVVQCBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoeDEg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 43 - xiaohe
+  type: vless
+  server: securecircle.com
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcHBAZQU1QLDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFQUA0g=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 44 - xiaohe
+  type: vless
+  server: www.dbs.com.sg
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcIAQZaV1ULDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFsbAkg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 45 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 46 - xiaohe
+  type: vless
+  server: www.carousell.sg
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwcBAQJbXFQDDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFsZB0g=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 47 - xiaohe
+  type: vless
+  server: 172.64.158.170
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -797,20 +660,243 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 58 - xiaohe
+- name: 🌐 其他地区 (Other) 48 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: securecircle.com
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwQDBQNTXFEFAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYbDEg=
     headers:
-      Host: jp3.yohototo.top
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 49 - xiaohe
+  type: vless
+  server: www.leics.police.uk
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYDBQtRV1QHBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFcbB0g=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 50 - xiaohe
+  type: vless
+  server: 172.64.146.66
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex3r.qzz.io
+  network: ws
+  ws-opts:
+    path: /sg-orcl
+    headers:
+      Host: ex3r.qzz.io
+- name: 🌐 其他地区 (Other) 51 - xiaohe
+  type: vless
+  server: 104.21.93.52
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 52 - xiaohe
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex3r.qzz.io
+  network: ws
+  ws-opts:
+    path: /sg-orcl
+    headers:
+      Host: ex3r.qzz.io
+- name: 🌐 其他地区 (Other) 53 - xiaohe
+  type: vless
+  server: 172.67.145.14
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 54 - xiaohe
+  type: vless
+  server: 172.67.160.192
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 55 - xiaohe
+  type: vless
+  server: op.chinwa.eu.cc
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIJAAdQVFMBAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocB0g=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 56 - xiaohe
+  type: vless
+  server: www.leics.police.uk
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYBBwVRVVkCAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFYaAEg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 57 - xiaohe
+  type: vless
+  server: www.sloomb.com
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwQBAgRaVVEABR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFseB0g=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 58 - xiaohe
+  type: vless
+  server: p.etime.vip
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwIHAQNSU1QDAh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEUAUg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 59 - xiaohe
+  type: vless
+  server: www.carousell.sg
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgBCAdVUVULAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFsdAkg=
+    headers:
+      Host: 001-4e8.pages.dev
+- name: 🌐 其他地区 (Other) 60 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 61 - xiaohe
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 62 - xiaohe
+  type: vless
+  server: 104.27.110.37
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 63 - xiaohe
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 64 - xiaohe
+  type: vless
+  server: www.shopify.com
+  port: 443
+  uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 001-4e8.pages.dev
+  network: ws
+  ws-opts:
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEBBgRVXVkCAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
+    headers:
+      Host: 001-4e8.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -874,6 +960,12 @@ proxy-groups:
   - 🌐 其他地区 (Other) 56 - xiaohe
   - 🌐 其他地区 (Other) 57 - xiaohe
   - 🌐 其他地区 (Other) 58 - xiaohe
+  - 🌐 其他地区 (Other) 59 - xiaohe
+  - 🌐 其他地区 (Other) 60 - xiaohe
+  - 🌐 其他地区 (Other) 61 - xiaohe
+  - 🌐 其他地区 (Other) 62 - xiaohe
+  - 🌐 其他地区 (Other) 63 - xiaohe
+  - 🌐 其他地区 (Other) 64 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -937,5 +1029,11 @@ proxy-groups:
   - 🌐 其他地区 (Other) 56 - xiaohe
   - 🌐 其他地区 (Other) 57 - xiaohe
   - 🌐 其他地区 (Other) 58 - xiaohe
+  - 🌐 其他地区 (Other) 59 - xiaohe
+  - 🌐 其他地区 (Other) 60 - xiaohe
+  - 🌐 其他地区 (Other) 61 - xiaohe
+  - 🌐 其他地区 (Other) 62 - xiaohe
+  - 🌐 其他地区 (Other) 63 - xiaohe
+  - 🌐 其他地区 (Other) 64 - xiaohe
 rules:
 - MATCH,PROXIES
