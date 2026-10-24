@@ -5,31 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: random
 - name: 🇨🇭 CH 02 - xiaohe
   type: vless
-  server: 147.79.20.191
-  port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  server: 57.129.130.63
+  port: 52014
+  uuid: d731cf09-79a6-4647-aabe-8e0fda4fe3be
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /@Marisa_kristi
     headers:
-      Host: sdwf-amq.pages.dev
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
 - name: 🇨🇭 CH 03 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -41,18 +36,25 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 04 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  type: vless
+  server: ProxyIP.JP.CMLiussss.net
+  port: 443
+  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sdwf-amq.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdwf-amq.pages.dev
 - name: 🇨🇭 CH 05 - xiaohe
   type: vless
-  server: 140.245.82.2
-  port: 8443
+  server: 172.237.5.208
+  port: 2053
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
   tls: true
@@ -65,21 +67,21 @@ proxies:
       Host: sdwf-amq.pages.dev
 - name: 🇨🇭 CH 06 - xiaohe
   type: vless
-  server: 87.76.190.188
+  server: 185.18.250.245
   port: 443
-  uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sdwf-amq.pages.dev
+  servername: edu.ruangguru.com.r3xxe.eu.cc
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /nl-tw
     headers:
-      Host: sdwf-amq.pages.dev
+      Host: edu.ruangguru.com.r3xxe.eu.cc
 - name: 🇨🇭 CH 07 - xiaohe
   type: vless
-  server: 45.202.255.219
+  server: 178.239.117.24
   port: 443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
@@ -92,15 +94,8 @@ proxies:
     headers:
       Host: sdwf-amq.pages.dev
 - name: 🇨🇭 CH 08 - xiaohe
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
-  udp: true
-- name: 🇨🇭 CH 09 - xiaohe
   type: vless
-  server: 52.195.211.175
+  server: 178.214.214.120
   port: 443
   uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
   udp: true
@@ -112,18 +107,6 @@ proxies:
     path: /?ed=2048
     headers:
       Host: sdwf-amq.pages.dev
-- name: 🇨🇭 CH 10 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -137,8 +120,6 @@ proxy-groups:
   - 🇨🇭 CH 06 - xiaohe
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
-  - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -152,7 +133,5 @@ proxy-groups:
   - 🇨🇭 CH 06 - xiaohe
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
-  - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
 rules:
 - MATCH,PROXIES
