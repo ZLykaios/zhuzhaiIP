@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 SE 01 - xiaohe
+- name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  server: gb.privatevip.ir
+  port: 449
+  uuid: 7c730089-1791-4828-89b2-86e7e1663063
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 5.178.109.174
+      Host: gb.privatevip.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 SE 01 - xiaohe
+  - 🇧🇬 BG 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 SE 01 - xiaohe
+  - 🇧🇬 BG 01 - xiaohe
 rules:
 - MATCH,PROXIES
