@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
-  server: op.chinwa.eu.cc
+  server: cf.877774.xyz
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -15,12 +15,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgGCQNRVVMDBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocA0g=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYDBwRTVFUDAR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAVAEg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   type: vless
-  server: www.sloomb.com
+  server: securecircle.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -29,12 +29,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMABABSUFMCBB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFEcAUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYDBQpbUVcDBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
   type: vless
-  server: cf.nyanya.moe
+  server: www.shopify.com
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -43,7 +43,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwICBwJQXVgLDR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAVBUg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYBCAFSVFYDAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUaDUg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
@@ -57,7 +57,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwMBAwpUVlMLAx5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFAeB0g=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEFBwdbV1EGBR5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFQUAkg=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
@@ -71,12 +71,12 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwYDCANSVFALBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFUZBkg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgGCQNRVVMDBh5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFocA0g=
     headers:
       Host: 001-4e8.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 06 (家宽) - xiaohe
   type: vless
-  server: www.mfyx.cn
+  server: saas.sin.fan
   port: 443
   uuid: 5043349c-1d28-4011-9a1c-45ba0113cea2
   udp: true
@@ -85,7 +85,7 @@ proxies:
   servername: 001-4e8.pages.dev
   network: ws
   ws-opts:
-    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwgIAgpUV1cKDB5bQ1ZaXhQDXwFGGgEWQF5DWRtbAFoeAEg=
+    path: /video/ThJASkNRG1kPQhdGSA8YEkRCSEsPUA5IFg9AF0BfEx9BFQBBRkdbQVcWA0FbQQoQFA9cX0JFQ1gMVEEXFkMSDwEBAQRUXFMFAB5bQ1ZaXhQDXwFGGgEWQF5DWRtbCFoYSQ==
     headers:
       Host: 001-4e8.pages.dev
 proxy-groups:
